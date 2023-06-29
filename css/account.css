@@ -1,0 +1,71 @@
+body {
+    padding: 20px;
+}
+
+body.active {
+    --white-color: #111;
+    --black-color: #fff;
+    --light-color: rgba(255, 255, 255, .3);
+    background: #222;
+}
+
+.account-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.account-card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.account-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.user-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.user-info p {
+    margin: 0;
+}
+
+.user-info .email {
+    font-weight: bold;
+    color: #333;
+}
+
+.ecommerce-details {
+    margin-bottom: 20px;
+}
+
+.ecommerce-details p {
+    margin: 0;
+}
+
+.ecommerce-details label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .user-info img {
+        width: 100px;
+        height: 100px;
+    }
+}
